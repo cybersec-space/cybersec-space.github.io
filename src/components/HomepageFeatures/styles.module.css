@@ -1,0 +1,86 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+
+/* Override hero section background */
+.heroBanner {
+  background-color: #ffffff;
+  color: #333; /* Adjust text color as needed */
+  padding: 2rem 0;
+  /* Reduce the overall height */
+  min-height: 200px;
+}
+
+/* Style the quote block */
+.quote {
+  margin: 1rem 0;
+  padding: 1rem;
+  font-style: italic;
+  border-left: 4px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+/* Style for the Next button */
+.nextButton {
+  background-color: #0078d7;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.nextButton:hover {
+  background-color: #005a9e;
+}
+
+
+/* Homepage Feature list card */
+.card {
+  height: 88%;
+  transition: transform 0.2s;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.textCard {
+  padding: 1.5rem;
+}
+
+.cardHeader {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.cardHeader h3 {
+  color: var(--ifm-color-primary);
+  font-size: 1.5rem;
+}
+
+.cardContent {
+  text-align: center;
+}
+
+.textCard:hover {
+  border-color: var(--ifm-color-primary); 
+}
+
+.cardContent p {
+  color: var(--ifm-font-color-base); /* Default text color */
+  margin-bottom: 0; /* Optional: removes default paragraph margin */
+}
