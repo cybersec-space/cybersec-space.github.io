@@ -44,15 +44,15 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/cybersec-space/cybersec-space.github.io/tree/main/docs',
+          // editUrl:
+          //   'https://github.com/cybersec-space/cybersec-space.github.io/tree/main/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/cybersec-space/cybersec-space.github.io/tree/main/blog',
+          // editUrl:
+          //   'https://github.com/cybersec-space/cybersec-space.github.io/tree/main/blog',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -60,7 +60,17 @@ const config = {
 
       }),
     ],
+
+    [
+      '@docusaurus/preset-classic',
+      {
+        googleTagManager: {
+          containerId: 'GTM-TTBS5KSG',
+        },
+      },
+    ],
   ],
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */

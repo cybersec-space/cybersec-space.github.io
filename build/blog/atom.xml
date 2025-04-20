@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cybersec-space.github.io/blog</id>
     <title>CyberSec Space Blog</title>
-    <updated>2025-04-25T00:00:00.000Z</updated>
+    <updated>2025-04-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cybersec-space.github.io/blog"/>
     <subtitle>CyberSec Space Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Learn Python for Cybersecurity Career Path]]></title>
         <id>https://cybersec-space.github.io/blog/Python-for-Cybersecurity-Career-Path</id>
         <link href="https://cybersec-space.github.io/blog/Python-for-Cybersecurity-Career-Path"/>
-        <updated>2025-04-25T00:00:00.000Z</updated>
+        <updated>2025-04-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Following can be the structured roadmap to learn Python and transition into cybersecurity, along with resources and career guidance:]]></summary>
         <content type="html"><![CDATA[<p>Following can be the structured roadmap to learn Python and transition into cybersecurity, along with resources and career guidance:</p>
 <h1>Python &amp; Cybersecurity Roadmap</h1>
