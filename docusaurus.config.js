@@ -58,16 +58,11 @@ const config = {
           customCss: './src/css/custom.css',
         },
 
-      }),
-    ],
-
-    [
-      '@docusaurus/preset-classic',
-      {
         googleTagManager: {
           containerId: 'GTM-TTBS5KSG',
         },
-      },
+
+      }),
     ],
   ],
 
