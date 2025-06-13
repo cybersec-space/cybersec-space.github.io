@@ -54,6 +54,8 @@ const config = {
           // editUrl:
           //   'https://github.com/cybersec-space/cybersec-space.github.io/tree/main/blog',
         },
+
+        
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -63,6 +65,27 @@ const config = {
         },
 
       }),
+    ],
+  ],
+
+   plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'projects',                // must be unique
+        path: 'projects',              // folder holding your .md files
+        routeBasePath: 'projects',     // mounts listing at /projects
+        blogTitle: 'Projects',
+        blogDescription: 'All of our projects',
+        postsPerPage: 10,              // adjust pagination
+        blogSidebarCount: 'ALL',       // show all posts in sidebar
+        blogSidebarTitle: 'All Projects',
+        feedOptions: {
+          type: 'all',                 // generate RSS/Atom/JSON feeds
+          title: 'Projects Feed',
+          description: 'Updates on our projects',
+        },
+      },
     ],
   ],
 
@@ -89,6 +112,12 @@ const config = {
             to: '/blog', 
             position: 'left',
             label: 'Blogs', 
+          },
+          {
+            to: '/projects',  
+            label: 'Projects',
+            position: 'left',
+            activeBasePath: 'project',
           },
         ],
       },

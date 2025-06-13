@@ -1,0 +1,9 @@
+{
+    "label": "Understading APIs",
+    "position": 8,
+    "link": {
+      "type": "generated-index",
+      "description": "Application Programming Interface (API) calls make up more than 80 percent of all webtraffic today. Lets learn about REST APIs, GraphQL API format and common API-related vulnerabilities."
+    }
+  }
+  
