@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Projects Feed</title>
+        <link>https://edu.recondb.org/projects</link>
+        <description>Updates on our projects</description>
+        <lastBuildDate>Fri, 13 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Secure Mini Cloud Storage]]></title>
+            <link>https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon</link>
+            <guid>https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon</guid>
+            <pubDate>Fri, 13 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[A multi-layered network service with security hardening]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="overview">Overview<a href="https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-concetps">Key Concetps<a href="https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon#key-concetps" class="hash-link" aria-label="Direct link to Key Concetps" title="Direct link to Key Concetps" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="day-1">DAY 1<a href="https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon#day-1" class="hash-link" aria-label="Direct link to DAY 1" title="Direct link to DAY 1" translate="no">​</a></h3>
+<ul>
+<li class="">TOCTOU Protection: Used openat() + renameat() to prevent time-of-check-to-time-of-use vulnerabilities</li>
+<li class="">Memory Safety: calloc() instead of malloc, explicit_bzero() for sensitive data</li>
+<li class="">Secure Defaults: File descriptors with strict permissions (0600)</li>
+<li class="">Build Hardening: Security flags in Makefile</li>
+<li class="">Commit Integrity: GPG-signed commits</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="learn-about">Learn About<a href="https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon#learn-about" class="hash-link" aria-label="Direct link to Learn About" title="Direct link to Learn About" translate="no">​</a></h3>
+<ul>
+<li class="">man 2 openat - Understand directory file descriptors</li>
+<li class="">man 2 renameat - Learn about atomic filesystem operations</li>
+<li class="">TOCTOU vulnerabilities (CWE-367)</li>
+<li class="">Git commit signing workflows</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="day-2">DAY 2<a href="https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon#day-2" class="hash-link" aria-label="Direct link to DAY 2" title="Direct link to DAY 2" translate="no">​</a></h3>
+<ul>
+<li class="">Path Traversal Protection: Blocked ../ and absolute paths</li>
+<li class="">Symlink Attack Prevention: Used O_NOFOLLOW flag</li>
+<li class="">Buffer Overflow Prevention: Strict size validation</li>
+<li class="">Automated Security Gates: Pre-commit hooks and CI pipeline</li>
+<li class="">Branch Isolation: Feature branch workflow for safe development</li>
+</ul>]]></content:encoded>
+            <category>C</category>
+            <category>Security</category>
+        </item>
+    </channel>
+</rss>

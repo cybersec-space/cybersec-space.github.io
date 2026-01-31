@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkgkaucha_github_io=globalThis.webpackChunkgkaucha_github_io||[]).push([[5892],{7384:a=>{a.exports=JSON.parse('{"tags":[{"label":"C","permalink":"/projects/tags/c","count":1},{"label":"Security","permalink":"/projects/tags/security","count":1}]}')}}]);
