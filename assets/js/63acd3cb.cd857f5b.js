@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkgkaucha_github_io=globalThis.webpackChunkgkaucha_github_io||[]).push([[954],{5849:e=>{e.exports=JSON.parse('{"title":"All Projects","items":[{"title":"Secure Mini Cloud Storage","permalink":"/projects/secure-Mini-Cloud-storage-daemon","unlisted":false,"date":"2025-06-13T00:00:00.000Z"}]}')}}]);

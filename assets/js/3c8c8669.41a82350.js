@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkgkaucha_github_io=globalThis.webpackChunkgkaucha_github_io||[]).push([[919],{2182:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/projects","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"All of our projects","blogTitle":"Projects"}}')}}]);

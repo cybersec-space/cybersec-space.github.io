@@ -1,0 +1,20 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Projects Feed",
+    "home_page_url": "https://edu.recondb.org/projects",
+    "description": "Updates on our projects",
+    "items": [
+        {
+            "id": "https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon",
+            "content_html": "<h2 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"overview\">Overview<a href=\"https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon#overview\" class=\"hash-link\" aria-label=\"Direct link to Overview\" title=\"Direct link to Overview\" translate=\"no\">​</a></h2>\n<h2 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"key-concetps\">Key Concetps<a href=\"https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon#key-concetps\" class=\"hash-link\" aria-label=\"Direct link to Key Concetps\" title=\"Direct link to Key Concetps\" translate=\"no\">​</a></h2>\n<h3 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"day-1\">DAY 1<a href=\"https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon#day-1\" class=\"hash-link\" aria-label=\"Direct link to DAY 1\" title=\"Direct link to DAY 1\" translate=\"no\">​</a></h3>\n<ul>\n<li class=\"\">TOCTOU Protection: Used openat() + renameat() to prevent time-of-check-to-time-of-use vulnerabilities</li>\n<li class=\"\">Memory Safety: calloc() instead of malloc, explicit_bzero() for sensitive data</li>\n<li class=\"\">Secure Defaults: File descriptors with strict permissions (0600)</li>\n<li class=\"\">Build Hardening: Security flags in Makefile</li>\n<li class=\"\">Commit Integrity: GPG-signed commits</li>\n</ul>\n<h3 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"learn-about\">Learn About<a href=\"https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon#learn-about\" class=\"hash-link\" aria-label=\"Direct link to Learn About\" title=\"Direct link to Learn About\" translate=\"no\">​</a></h3>\n<ul>\n<li class=\"\">man 2 openat - Understand directory file descriptors</li>\n<li class=\"\">man 2 renameat - Learn about atomic filesystem operations</li>\n<li class=\"\">TOCTOU vulnerabilities (CWE-367)</li>\n<li class=\"\">Git commit signing workflows</li>\n</ul>\n<h3 class=\"anchor anchorTargetStickyNavbar_Vzrq\" id=\"day-2\">DAY 2<a href=\"https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon#day-2\" class=\"hash-link\" aria-label=\"Direct link to DAY 2\" title=\"Direct link to DAY 2\" translate=\"no\">​</a></h3>\n<ul>\n<li class=\"\">Path Traversal Protection: Blocked ../ and absolute paths</li>\n<li class=\"\">Symlink Attack Prevention: Used O_NOFOLLOW flag</li>\n<li class=\"\">Buffer Overflow Prevention: Strict size validation</li>\n<li class=\"\">Automated Security Gates: Pre-commit hooks and CI pipeline</li>\n<li class=\"\">Branch Isolation: Feature branch workflow for safe development</li>\n</ul>",
+            "url": "https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon",
+            "title": "Secure Mini Cloud Storage",
+            "summary": "A multi-layered network service with security hardening",
+            "date_modified": "2025-06-13T00:00:00.000Z",
+            "tags": [
+                "C",
+                "Security"
+            ]
+        }
+    ]
+}
