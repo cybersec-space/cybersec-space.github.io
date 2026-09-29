@@ -1,0 +1,20 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Projects Feed",
+    "home_page_url": "https://edu.recondb.org/projects",
+    "description": "Updates on our projects",
+    "items": [
+        {
+            "id": "https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon",
+            "content_html": "",
+            "url": "https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon",
+            "title": "Secure Mini Cloud Storage",
+            "summary": "A multi-layered network service with security hardening",
+            "date_modified": "2025-06-13T00:00:00.000Z",
+            "tags": [
+                "C",
+                "Security"
+            ]
+        }
+    ]
+}

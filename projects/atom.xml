@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://edu.recondb.org/projects</id>
+    <title>Projects Feed</title>
+    <updated>2025-06-13T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://edu.recondb.org/projects"/>
+    <subtitle>Updates on our projects</subtitle>
+    <icon>https://edu.recondb.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Secure Mini Cloud Storage]]></title>
+        <id>https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon</id>
+        <link href="https://edu.recondb.org/projects/secure-Mini-Cloud-storage-daemon"/>
+        <updated>2025-06-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A multi-layered network service with security hardening]]></summary>
+        <category label="C" term="C"/>
+        <category label="Security" term="Security"/>
+    </entry>
+</feed>
